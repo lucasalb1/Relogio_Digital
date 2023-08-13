@@ -1,0 +1,40 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right, rgba(223, 223, 44, 0.747), rgba(211, 5, 5, 0.678));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.relogio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 480px;
+    height: 150px;
+    background: transparent;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.527);
+    font-size: 50px;
+    font-weight: bold;
+}
+div{
+    display: flex;
+    width: 120px;
+    height: 120px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.836);
+}
+.num{
+    font-size: 15px;
+}
+
